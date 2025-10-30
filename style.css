@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #f0f4f8;
+  color: #1e293b;
+}
+
+.cv-container {
+  display: flex;
+  max-width: 1100px;
+  margin: 30px auto;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ===== Colonne gauche ===== */
+.left-column {
+  width: 33%;
+  background: linear-gradient(180deg, #1e3a8a, #2563eb);
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.profile-pic img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 15px;
+}
+
+.left-column h1 {
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.left-column h1 span {
+  color: #93c5fd;
+}
+
+.left-column h2 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.contact {
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.contact p {
+  margin: 6px 0;
+}
+
+.section {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.section h3 {
+  font-size: 14px;
+  border-bottom: 2px solid #60a5fa;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.section ul {
+  list-style: none;
+}
+
+.section li {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+/* ===== Colonne droite ===== */
+.right-column {
+  width: 67%;
+  padding: 35px;
+}
+
+.right-column h2 {
+  color: #1e3a8a;
+  border-bottom: 2px solid #60a5fa;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.profile p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #334155;
+}
+
+.job {
+  margin-bottom: 15px;
+}
+
+.job h3 {
+  font-size: 15px;
+  color: #0f172a;
+}
+
+.job span {
+  font-size: 12px;
+  color: #475569;
+}
+
+.job ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 13px;
+  color: #334155;
+}
+
+.internships ul,
+.education ul {
+  list-style: none;
+  font-size: 13px;
+  color: #334155;
+}
+
+.internships li,
+.education li {
+  margin-bottom: 10px;
+}
+
+.internships span {
+  color: #64748b;
+  font-size: 12px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 25px;
+}
